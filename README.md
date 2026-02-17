@@ -1,52 +1,96 @@
-# customer-churn-prediction
-Customer Churn Prediction (SQL + Python + Tableau)
+# 📊 Customer Churn Prediction
 
-End-to-end customer churn prediction project using behavioral analytics and machine learning.
+End-to-end **Customer Churn Prediction** project using **SQL, Python, and Tableau**.  
+The goal is to identify customers at high risk of churn using behavioral analytics and machine learning.
 
-Project Overview
+---
 
-This project predicts customer churn risk using behavioral customer features such as purchase frequency, revenue, and inactivity.
+## 🚀 Project Overview
 
-Tech Stack
+Customer churn is one of the most critical business problems.  
+In this project we:
 
-SQL — Feature engineering
+- Built customer behavioral features using **SQL**
+- Trained a **Machine Learning churn model**
+- Calculated **churn probability & risk segmentation**
+- Identified key churn drivers using **feature importance**
+- Built a **Tableau business dashboard**
 
-Python — Logistic Regression
+---
 
-Tableau — Business dashboard
+## 🧰 Tech Stack
 
-Workflow
+- **SQL** → Feature engineering  
+- **Python (Scikit-Learn)** → Logistic Regression model  
+- **Pandas / NumPy** → Data processing  
+- **Tableau** → Business dashboard & visualization  
 
-SQL → Customer feature creation
+---
 
-Python → Machine learning churn model
+## ⚙️ Workflow
 
-Churn probability & risk segmentation
+1. **SQL — Customer Feature Engineering**
+   - Total orders
+   - Total revenue
+   - Average order value
+   - Days since last purchase
 
-Feature importance analysis
+2. **Python — Churn Model**
+   - Logistic Regression
+   - Churn probability prediction
+   - Risk segmentation (High / Low)
 
-Tableau dashboard for business decision making
+3. **Model Explainability**
+   - Feature importance
+   - Permutation importance
 
-Key Insight
+4. **Tableau Dashboard**
+   - Risk distribution
+   - Churn probability distribution
+   - KPI metrics
 
-Customer inactivity (days_since_last_purchase) is the strongest predictor of churn.
+---
 
-Business Value
+## 📈 Key Insight
 
-Identify high-risk customers
+The strongest predictor of churn is:
 
-Enable targeted retention campaigns
+> **Customer inactivity (days_since_last_purchase)**
 
-Monitor behavioral churn signals
+Customers who stop purchasing for long periods are significantly more likely to churn.
 
-Files
+---
 
-churn_sql.sql → SQL feature engineering
+## 💼 Business Value
 
-churn_model.ipynb → Machine learning model
+- Identify high-risk customers early  
+- Enable targeted retention campaigns  
+- Monitor behavioral churn signals  
+- Improve customer lifetime value  
 
-churn_predictions.csv → Model predictions
+---
 
-Dashboard
+## 📂 Project Files
 
-(Tableau dashboard preview below)
+| File | Description |
+|------|-------------|
+| `churn_sql.sql` | SQL feature engineering |
+| `churn_model.ipynb` | Machine learning model |
+| `churn_predictions.csv` | Model predictions |
+
+---
+
+## 📊 Tableau Dashboard
+
+*(Add dashboard screenshot below)*
+
+![Churn Dashboard](images/dashboard.png)
+
+---
+
+## 🔮 Future Improvements
+
+- Add more behavioral features  
+- Try advanced models (XGBoost / Random Forest)  
+- Deploy model as API  
+- Automate pipeline  
