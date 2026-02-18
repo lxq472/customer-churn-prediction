@@ -81,12 +81,9 @@ Customers who stop purchasing for long periods are significantly more likely to 
 ---
 
 ## 📊 Tableau Dashboard
+👉 Tableau Public link: (https://public.tableau.com/app/profile/nikolaos.giannoulis/viz/CustomerChurnDashboard_17713687620020/CustomerChurnRiskDashboard#1)
 
-*(Add dashboard screenshot below)*
-
-![Churn Dashboard](images/dashboard.png)
-[
-](https://public.tableau.com/app/profile/nikolaos.giannoulis/viz/CustomerChurnDashboard_17713687620020/CustomerChurnRiskDashboard#1)---
+---
 
 ## 🔮 Future Improvements
 
